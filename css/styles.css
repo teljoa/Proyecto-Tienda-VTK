@@ -1,0 +1,142 @@
+body {
+  font-family: 'Arial', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  background-color: #f8f9fa;
+}
+
+header .logo {
+  max-width: 150px;
+  height: auto;
+}
+
+header .navbar {
+  background-color: #64B99C;
+  padding: 0.25rem 1rem;
+}
+
+header .btn-warning {
+  background-color: #C1A51E;
+  border-color: #C1A51E;
+}
+
+header .btn-warning:hover {
+  background-color: #a88e1a;
+  border-color: #a88e1a;
+}
+
+footer {
+  margin-top: auto;
+  background-color: #999999;
+  color: #333;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer a {
+  color: #333;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+header .d-flex i {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+header .d-flex > div {
+  margin-right: 15px;
+}
+
+header form {
+  flex-grow: 1;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+header .d-flex {
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.btn-header {
+  background-color: #C1A51E;
+  border-color: #C1A51E;
+  color: white;
+}
+
+.btn-header:hover {
+  background-color: #a88e1a;
+  border-color: #a88e1a;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+}
+
+.btn-success {
+  background-color: #C1A51E;
+  border-color: #C1A51E;
+}
+
+.btn-success:hover {
+  background-color: #a88e1a;
+  border-color: #a88e1a;
+}
+
+footer .logo-footer {
+  max-width: 100px;
+  height: auto;
+}
+
+.container.mt-5 {
+  margin-bottom: 30px;
+}
+
+.carousel-item {
+  background-color: transparent;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  max-height: 400px;
+}
+
+.card {
+  border: none;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: black;
+  border-radius: 50%;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: black;
+  border-radius: 50%;
+}
